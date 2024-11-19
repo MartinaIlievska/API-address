@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 46, 14);
+}
+
+.card {
+    border-radius: 40px;
+    color: rgb(14, 46, 14);
+    background-color: rgb(133, 221, 162);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 10px;
+    margin: 10px 0px;
+}
+
+#posts {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
